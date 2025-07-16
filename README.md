@@ -1,14 +1,12 @@
 # Anemia-Detection-Using-Palm-Images
 
-# 🩺 Anemia Detection from Palm Images
-
 This project detects whether a person is **anemic** or **non-anemic** using palm images of both hands. It uses **MediaPipe** for palm region extraction and a custom-trained **MobileNetV2** model for classification.
 
 ---
 
 ###########################
 
-## 📁 Project Structure
+##  Project Structure
 
 your_team_folder/
 ├── anemia_pipeline.py # VS Code script for direct testing
@@ -26,9 +24,9 @@ your_team_folder/
 
 ---
 
-## 🛠️ How to Run
+## 🛠 How to Run
 
-### 🔹 Run from Terminal
+###  Run from Terminal
 
 ```bash
 python anemia_pipeline.py
@@ -36,7 +34,7 @@ python anemia_pipeline.py
 
 ######################
 
-✅ What it does:
+ What it does:
 
 Loads both palm images (left.png and right.png)
 
@@ -55,10 +53,10 @@ bash
 Copy
 Edit
 python app.py
-🌐 Endpoint: http://127.0.0.1:2000/predict
+ Endpoint: http://127.0.0.1:2000/predict
 Method: POST
 
-🧾 Send two files in Postman:
+ Send two files in Postman:
 
 left: left palm image
 
@@ -79,7 +77,7 @@ Edit
     "right": "<base64 string>"
   }
 }
-🗂️ It also saves:
+ It also saves:
 
 Cropped images (left_crop.png, right_crop.png)
 
@@ -111,7 +109,7 @@ Edit
 pip install -r requirements.txt
 (You must be in your virtual environment)
 
-❗ If you face issues installing packages:
+ If you face issues installing packages:
 Create a virtual environment with Python 11:
 
 bash
